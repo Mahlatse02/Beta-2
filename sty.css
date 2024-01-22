@@ -1,0 +1,189 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+h3 span{
+  color: aqua;
+}
+.nav {
+  background-color: black;
+  color: white;
+}
+ul li a{
+  color: white;
+  font-family: arial;
+  font-size: 25xp;
+}
+
+a  {
+  text-decoration: none;
+}
+
+.nav, 
+.nav_item {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_item {
+  column-gap: 25px;
+}
+.nav_link:hover 
+  color: skyblue;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+:root {
+  --primary-color: #1877f2;
+  --border-color: #dddfe2;
+  --text-color: #fff;
+}
+0
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.text {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+.text-2 {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.nav-bar {
+  background-color: black;
+  align-items: right;
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+  color: whitesmoke;
+}
+.just {
+  padding: 12xp 16xp;
+}
+a{
+  padding: 12xp 16xp;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.text-2 span{
+  color:  aqua;
+}
+n {
+    background: #ecececdb;
+}
+
+.card-list {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    justify-content: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 100vh;
+    height: 756%;
+    margin: 150px auto;568
+    padding: 20px;
+    gap: 20px;
+}
+.imge{
+  background-color: black;
+}
+body{
+  background-image: url(1702970227604.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;   
+}
+img{
+  height: 75%;
+  width: 100%
+}
+.card-list .card-item{
+    background-color: black;
+    padding: 10px;8
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+}
+
+.card-list .card-item:hover {
+    border: 2px solid #000;
+}
+
+.card-list .card-itemimg {
+    width: 100%;
+    height: 30%;
+    object: cover;
+}
+
+.card-list span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+card-list .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+
+card-list .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+
+
+card-list .editor {
+    background-color: #d6f8d6; 
+    color: #205c20;
+}
+
+.card-item h5 {
+    color: whitesmoke;
+}
+
+.card-list .card-item:hover .arrow  {
+    background: #000;
+    color: aqua; 
+}
+
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15pxp;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
